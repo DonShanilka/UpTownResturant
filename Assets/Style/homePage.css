@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.home-page-main-rect {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+.image-div>img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.black-rect {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.733);
+}
+
+.details-div {
+    z-index: 10;
+}
