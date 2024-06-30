@@ -32,10 +32,10 @@
     font-weight: 400;
     font-style: normal;
     font-size: 200%;
-    color: #ffffff8a;
+    color: #ffffffab;
     position: absolute;
     left: 34%;
-    top: 24%;
+    top: 22%;
     letter-spacing: 1vw;
 }
 
@@ -152,4 +152,20 @@
     color: rgb(146, 146, 146);
     top: 57%;
     left: 54%;
+}
+
+.time-img {
+    position: absolute;
+    top: 56.5%;
+    left: 35%;
+    width: 25px;
+    height: 25px;
+}
+
+.location-img {
+    position: absolute;
+    top: 56.5%;
+    left: 51%;
+    width: 25px;
+    height: 25px;
 }
