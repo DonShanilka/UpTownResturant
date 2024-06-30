@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Habibi&family=MonteCarlo&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Train+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Train+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Habibi&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Train+One&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -20,31 +24,54 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.856);
+    background-color: #000000e0;
+}
+
+.welcome-para {
+    font-family: "MonteCarlo", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 200%;
+    color: #ffffff8a;
+    position: absolute;
+    left: 34%;
+    top: 24%;
+    letter-spacing: 1vw;
 }
 
 .details-div>h1 {
     position: absolute;
-    color: rgb(255, 255, 255);
-    font-size: 70px;
-    top: 25%;
-    left: 10%;
-    right: 10%;
-}
-
-.details-div>h2 {
-    position: absolute;
+    top: 30%;
+    left: 20%;
     color: #bea200;
     font-size: 70px;
-    top: 35%;
-    left: 40%;
-    right: 40%;
+    font-family: "Train One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 1vw;
+}
+
+.main-para-home-page {
+    color: #ffffff;
+    font-family: "Habibi", serif;
+    font-weight: 400;
+    font-style: normal;
+    position: absolute;
+    top: 45%;
+    letter-spacing: 0.3vw;
+    left: 24%;
+    right: 24%;
+    text-align: center;
 }
 
 .details-div>button {
     position: absolute;
     top: 70%;
-    width: 150px;
+    left: 0%;
+    right: 0%;
+    bottom: 22%;
+    margin: auto;
+    width: 170px;
     overflow: hidden;
     border: 3px solid #bea200;
     color: #bea200;
@@ -109,4 +136,20 @@
     opacity: 1;
     transition: all 900ms cubic-bezier(0.48, 0, 0.12, 1);
     color: black;
+}
+
+.open-hours {
+    font-weight: bold;
+    position: absolute;
+    color: rgb(146, 146, 146);
+    top: 57%;
+    left: 38%;
+}
+
+.location {
+    font-weight: bold;
+    position: absolute;
+    color: rgb(146, 146, 146);
+    top: 57%;
+    left: 54%;
 }
