@@ -5,3 +5,12 @@
     top: 100%;
     background-color: #181818;
 }
+
+.about-details-rect {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    width: 30%;
+    height: 30%;
+    background-color: #313131;
+}
