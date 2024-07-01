@@ -14,6 +14,7 @@
     height: 50%;
     background-color: #232227;
     border-radius: 5px;
+    z-index: 5;
 }
 
 .about-details-rect>h3 {
@@ -50,4 +51,29 @@
     font-size: 70%;
     left: 15%;
     right: 15%;
+}
+
+.about-page-main-img {
+    position: absolute;
+    width: 35%;
+    height: 50%;
+    top: 30%;
+    left: 25%;
+    z-index: 3;
+}
+
+.about-background-img {
+    position: absolute;
+    width: 50%;
+    height: 60%;
+    top: 40%;
+    left: 35%;
+}
+
+.about-background-img-2 {
+    position: absolute;
+    width: 50%;
+    height: 60%;
+    top: 10%;
+    left: 15%;
 }
