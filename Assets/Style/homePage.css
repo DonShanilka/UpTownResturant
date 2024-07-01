@@ -5,6 +5,9 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: "Habibi", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .home-page-main-rect {
@@ -34,7 +37,7 @@
     font-size: 200%;
     color: #ffffffab;
     position: absolute;
-    left: 34%;
+    left: 35.5%;
     top: 22%;
     letter-spacing: 1vw;
 }
