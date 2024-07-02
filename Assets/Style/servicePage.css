@@ -5,3 +5,40 @@
     top: 200%;
     background-color: #141217;
 }
+
+.service-page-main-rect>h3 {
+    color: #ffffff;
+    font-size: xx-large;
+    font-weight: 900;
+    position: absolute;
+    left: 41%;
+    top: 20%;
+}
+
+.service-page-main-rect>h5 {
+    color: #b9b9b9;
+    position: absolute;
+    top: 28%;
+    left: 40%;
+}
+
+.service-2nd-rect {
+    position: absolute;
+    width: 90%;
+    height: 60%;
+    left: 5%;
+    top: 35%;
+    display: flex;
+}
+
+.service-2nd-rect>div {
+    padding: 50px;
+    color: #b9b9b9;
+    text-align: center;
+}
+
+.service-2nd-rect>div>h4 {
+    padding: 30px;
+    color: #b9b9b9;
+    text-align: center;
+}
