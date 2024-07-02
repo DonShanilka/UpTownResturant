@@ -38,7 +38,9 @@
 }
 
 .service-2nd-rect>div>h4 {
-    padding: 30px;
-    color: #b9b9b9;
+    padding: 15px;
+    color: #ffffff;
+    font-size: larger;
+    font-weight: 900;
     text-align: center;
 }
