@@ -5,3 +5,47 @@
     top: 580%;
     background-color: #141217;
 }
+
+.review-page-main-rect>h3 {
+    position: absolute;
+    color: #ffffff;
+    top: 15%;
+    left: 5%;
+    font-size: 200%;
+    font-weight: 900;
+}
+
+.review-page-main-rect>p {
+    color: #b9b9b9;
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    right: 55%;
+}
+
+.review-card-01 {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    width: 20%;
+    height: 15%;
+    background-color: #363436;
+    
+}
+
+.review-card-01>h5 {
+    position: absolute;
+    font-size: 100%;
+    top: 15%;
+    left: 5%;
+    color: #ffffff;
+}
+
+.review-card-01>p {
+    position: absolute;
+    font-size: 70%;
+    top: 50%;
+    left: 5%;
+    right: 10%;
+    color: #ffffff9a;
+}
