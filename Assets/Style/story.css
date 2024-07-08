@@ -53,9 +53,9 @@
 .story-page-btn {
   align-items: center;
   background-color: #00000000;
-  border: 2px solid #ffffff;
+  border: 2px solid #bea200;
   box-sizing: border-box;
-  color: #ffffff;
+  color: #bea200;
   cursor: pointer;
   display: inline-flex;
   fill: #000;
@@ -86,15 +86,15 @@
 }
 
 .story-page-btn:hover {
-  border-color: #bea200;
-  color: #bea200;
-  fill: #bea200;
+  border-color: #867200;
+  color: #867200;
+  fill: #867200;
 }
 
 .story-page-btn:active {
-  border-color: #bea200;
-  color: #bea200;
-  fill: #bea200;
+  border-color: #867200;
+  color: #867200;
+  fill: #867200;
 }
 
 @media (min-width: 768px) {
