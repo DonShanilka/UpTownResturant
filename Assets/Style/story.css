@@ -103,3 +103,29 @@
   }
 }
 
+
+.second-div-story-page {
+    border: #bea200 3px solid;
+    position: absolute;
+    top: 25%;
+    left: 60%;
+    width: 30%;
+    height: 40%;
+}
+
+.story-page-cetificate {
+    position: absolute;
+    width: 250px;
+    height: 360px;
+    top: 10%;
+    left: 7%;
+    z-index: 1;
+}
+
+.dot-img-story-page {
+    position: absolute;
+    left: 45%;
+    top: 80%;
+    width: 150px;
+    height: 200px;
+}
