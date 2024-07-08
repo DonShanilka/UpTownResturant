@@ -24,3 +24,82 @@
     background: linear-gradient(90deg, rgba(0,0,0,0.00043767507002800965) 0%, rgba(0,0,0,1) 82%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);
 }
+
+.story-page-details-div>h3 {
+    position: absolute;
+    color: #ffffff;
+    top: 25%;
+    left: 5%;
+    font-size: 200%;
+    font-weight: 900;
+}
+
+.story-page-details-div>.p-1 {
+    color: #b9b9b9;
+    position: absolute;
+    top: 35%;
+    left: 5%;
+    right: 67%;
+}
+
+.story-page-details-div>.p-2 {
+    color: #b9b9b9;
+    position: absolute;
+    top: 45%;
+    left: 5%;
+    right: 70%;
+}
+
+.story-page-btn {
+  align-items: center;
+  background-color: #00000000;
+  border: 2px solid #ffffff;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  fill: #000;
+  font-family: Inter,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  height: 48px;
+  justify-content: center;
+  letter-spacing: -.8px;
+  line-height: 24px;
+  min-width: 140px;
+  outline: 0;
+  padding: 0 17px;
+  text-align: center;
+  text-decoration: none;
+  transition: all .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  z-index: 10;
+  position: absolute;
+  top: 60%;
+  left: 5%;
+}
+
+.story-page-btn:focus {
+  color: #171e29;
+}
+
+.story-page-btn:hover {
+  border-color: #bea200;
+  color: #bea200;
+  fill: #bea200;
+}
+
+.story-page-btn:active {
+  border-color: #bea200;
+  color: #bea200;
+  fill: #bea200;
+}
+
+@media (min-width: 768px) {
+  .story-page-btn {
+    min-width: 170px;
+  }
+}
+
