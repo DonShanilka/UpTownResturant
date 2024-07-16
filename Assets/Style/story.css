@@ -1,53 +1,53 @@
 .story-page-main-rect {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 680%;
-    background-color: #141217;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 680%;
+  background-color: #141217;
 }
 
 .story-page-back-img {
-    position: absolute;
-    width: 50%;
-    height: 100%;
-    left: 0%;
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  left: 0%;
 }
 
 .black-div {
-    position: absolute;
-    right: 0%;
-    width: 100%;
-    height: 100%;
-    background: rgb(0,0,0);
-    background: -moz-linear-gradient(90deg, rgba(0,0,0,0.00043767507002800965) 0%, rgba(0,0,0,1) 82%);
-    background: -webkit-linear-gradient(90deg, rgba(0,0,0,0.00043767507002800965) 0%, rgba(0,0,0,1) 82%);
-    background: linear-gradient(90deg, rgba(0,0,0,0.00043767507002800965) 0%, rgba(0,0,0,1) 82%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);
+  position: absolute;
+  right: 0%;
+  width: 100%;
+  height: 100%;
+  background: rgb(0, 0, 0);
+  background: -moz-linear-gradient(90deg, rgba(0, 0, 0, 0.00043767507002800965) 0%, rgba(0, 0, 0, 1) 82%);
+  background: -webkit-linear-gradient(90deg, rgba(0, 0, 0, 0.00043767507002800965) 0%, rgba(0, 0, 0, 1) 82%);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.00043767507002800965) 0%, rgba(0, 0, 0, 1) 82%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000", endColorstr="#000000", GradientType=1);
 }
 
 .story-page-details-div>h3 {
-    position: absolute;
-    color: #ffffff;
-    top: 25%;
-    left: 5%;
-    font-size: 200%;
-    font-weight: 900;
+  position: absolute;
+  color: #ffffff;
+  top: 25%;
+  left: 5%;
+  font-size: 200%;
+  font-weight: 900;
 }
 
 .story-page-details-div>.p-1 {
-    color: #b9b9b9;
-    position: absolute;
-    top: 35%;
-    left: 5%;
-    right: 67%;
+  color: #b9b9b9;
+  position: absolute;
+  top: 35%;
+  left: 5%;
+  right: 67%;
 }
 
 .story-page-details-div>.p-2 {
-    color: #b9b9b9;
-    position: absolute;
-    top: 45%;
-    left: 5%;
-    right: 70%;
+  color: #b9b9b9;
+  position: absolute;
+  top: 45%;
+  left: 5%;
+  right: 70%;
 }
 
 .story-page-btn {
@@ -59,7 +59,7 @@
   cursor: pointer;
   display: inline-flex;
   fill: #000;
-  font-family: Inter,sans-serif;
+  font-family: Inter, sans-serif;
   font-size: 16px;
   font-weight: 600;
   height: 48px;
@@ -105,27 +105,47 @@
 
 
 .second-div-story-page {
-    border: #bea200 3px solid;
-    position: absolute;
-    top: 25%;
-    left: 50%;
-    width: 30%;
-    height: 40%;
+  border: #bea200 3px solid;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  width: 30%;
+  height: 40%;
 }
 
 .story-page-cetificate {
-    position: absolute;
-    width: 250px;
-    height: 360px;
-    top: 10%;
-    left: 7%;
-    z-index: 1;
+  position: absolute;
+  width: 250px;
+  height: 360px;
+  top: 10%;
+  left: 7%;
+  z-index: 1;
 }
 
 .dot-img-story-page {
-    position: absolute;
-    left: 45%;
-    top: 80%;
-    width: 150px;
-    height: 200px;
+  position: absolute;
+  left: 45%;
+  top: 80%;
+  width: 150px;
+  height: 200px;
+}
+
+.leef-img {
+  position: absolute;
+  left: 75.5%;
+  top: 43%;
+  width: 150px;
+  height: 200px;
+  transform: rotate(20deg);
+}
+
+.story-page-black-div {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgb(20, 18, 23);
+  background: -moz-linear-gradient(62deg, rgba(20, 18, 23, 0.42620798319327735) 0%, rgba(20, 18, 23, 1) 45%);
+  background: -webkit-linear-gradient(62deg, rgba(20, 18, 23, 0.42620798319327735) 0%, rgba(20, 18, 23, 1) 45%);
+  background: linear-gradient(62deg, rgba(20, 18, 23, 0.42620798319327735) 0%, rgba(20, 18, 23, 1) 45%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#141217", endColorstr="#141217", GradientType=1);
 }
