@@ -8,13 +8,14 @@
 
 .contact-froms-div {
     position: absolute;
-    width: 40%;
+    width: 30%;
     height: 60%;
     background-color: blue;
+    left: 20%;
 }
 
-.contact-froms-div>div {
-    width: 90%;
-    height: 10%;
-    margin: 5px 30px;
+.name-form-div>.name-form {
+    position: absolute;
+    width: 100%;
+    height: 8%;
 }
