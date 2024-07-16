@@ -5,3 +5,16 @@
     top: 780%;
     background-color: #141217;
 }
+
+.contact-froms-div {
+    position: absolute;
+    width: 40%;
+    height: 60%;
+    background-color: blue;
+}
+
+.contact-froms-div>div {
+    width: 90%;
+    height: 10%;
+    margin: 5px 30px;
+}
