@@ -71,3 +71,131 @@
     top: 56%;
     color: #bea200;
 }
+
+.contact-page-details {
+    position: absolute;
+    left: 60%;
+    top: 26%;
+    width: 40%;
+}
+
+.contact-page-details>:nth-child(1) {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: larger;
+    letter-spacing: 0.3vw;
+}
+
+.contact-page-details>:nth-child(2) {
+    color: #bea200;
+    position: absolute;
+    font-size: medium;
+    top: 95px;
+}
+
+.contact-page-details>:nth-child(3) {
+    color: #bea200;
+    position: absolute;
+    font-size: medium;
+    top: 150px;
+}
+
+.contact-page-details>:nth-child(4) {
+    color: #ffffff;
+    position: absolute;
+    font-size: medium;
+    top: 180px;
+}
+
+.contact-page-details>:nth-child(5) {
+    color: #ffffff;
+    position: absolute;
+    font-size: medium;
+    top: 205px;
+}
+
+.contact-page-details>:nth-child(6) {
+    color: #bea200;
+    position: absolute;
+    font-size: medium;
+    top: 260px;
+}
+
+.contact-page-details>:nth-child(7) {
+    color: #ffffff;
+    position: absolute;
+    font-size: medium;
+    top: 290px;
+}
+
+.contact-page-details>:nth-child(8) {
+    color: #ffffff;
+    background-color: #141217;
+    position: absolute;
+    font-size: medium;
+    top: 350px;
+    border: 2px #777777 solid;
+    height: 40px;
+    width: 130px;
+}
+
+
+.contact-page-details>:nth-child(8):hover {
+    border: 2px #bea200 solid;
+    color: #bea200;
+}
+
+input[type="checkbox"] {
+    /* Hide default checkbox */
+    appearance: none;
+    -webkit-appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #bea200;
+    border-radius: 3px;
+    position: absolute;
+    top: 84%;
+    left: 20%;
+    cursor: pointer;
+}
+
+input[type="checkbox"]:checked {
+    background-color: #bea10000;
+    /* Background color when checked */
+    border-color: #bea200;
+}
+
+input[type="checkbox"]:checked::after {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: 4px;
+    width: 6px;
+    height: 12px;
+    border: solid rgb(43, 255, 0);
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+.contact-page-para {
+    position: absolute;
+    font-size: small;
+    top: 88%;
+    left: 20%;
+    right: 47%;
+    color: #ffffffb7;
+}
+
+.contact-sent-btn {
+    position: absolute;
+    background-color: #bea200;
+    border: 1px #bea200 solid;
+    height: 6%;
+    width: 3.3%;
+    top: 80%;
+    left: 40%;
+}
+
+.contact-send-btn-icon {
+    width: 35px;
+}
