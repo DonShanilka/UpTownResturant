@@ -200,3 +200,10 @@ input[type="checkbox"]:checked::after {
 .contact-send-btn-icon {
     width: 35px;
 }
+
+.contact-page-main-img>:nth-child(1) {
+    position: absolute;
+    top: -20%;
+    left: 0%;
+    height: 60%;
+}
