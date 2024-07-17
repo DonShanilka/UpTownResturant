@@ -192,8 +192,9 @@ input[type="checkbox"]:checked::after {
     border: 1px #bea200 solid;
     height: 6%;
     width: 3.3%;
-    top: 80%;
-    left: 40%;
+    bottom: 19.9%;
+    right: 50%;
+    border-radius: 3px;
 }
 
 .contact-send-btn-icon {
