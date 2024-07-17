@@ -24,6 +24,7 @@
     background-color: #141217;
     border: 1px #777777 solid;
     border-radius: 5px;
+    color: aliceblue;
 }
 
 .number-form {
@@ -35,6 +36,7 @@
     background-color: #141217;
     border: 1px #777777 solid;
     border-radius: 5px;
+    color: aliceblue;
 }
 
 .message-form {
@@ -46,5 +48,26 @@
     background-color: #141217;
     border: 1px #777777 solid;
     border-radius: 5px;
-    color: #d1d1d1;
+    color: aliceblue;
+}
+
+.name-lable {
+    position: absolute;
+    left: 20%;
+    top: 26%;
+    color: #bea200;
+}
+
+.number-lable {
+    position: absolute;
+    left: 20%;
+    top: 41%;
+    color: #bea200;
+}
+
+.message-lable {
+    position: absolute;
+    left: 20%;
+    top: 56%;
+    color: #bea200;
 }
